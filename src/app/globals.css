@@ -2,26 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* .section{
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 15px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.p{
+    
+} */
+/* .container{
+    width: 600px; 
+    height: 700px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 15px;
+    background-image: linear-gradient(180deg, rgb(49, 49, 233) 0%, rgb(255, 89, 7) 100%)
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 60px;
+}
+.searchBar input{
+    display: flex;
+    width: 360px;
+    height: 70px;
+    background-color: beige;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: rgb(130, 113, 113);
+    font-size: 30px;
+    font-weight: 400;
+}
+.temperature{
+    display: flex;
+    justify-content: center;
+    color: beige;
+    font-size: 120px;
+    font-weight: 400;  
+}
+.location{
+    display: flex;
+    justify-content: center;
+    color: beige;
+    font-size: 60px;
+    font-weight: 400;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+.dataContainer{
+    margin-top: 50px;
+    color: beige;
+    display: flex;
+    justify-content: center;
+} 
+  */
