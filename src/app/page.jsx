@@ -3,6 +3,9 @@
 import Image from 'next/image'
 import React,  { useState } from 'react'
 import './globals.css'
+const emily = {
+  backgroundImage: "url('/images/skyboat.jpg')",
+}
 
 let city = 'Ikoyi'
 
@@ -30,7 +33,8 @@ export default function Home() {
   }
 
     return (
-      <section className='h-screen w-full bg-blue-800  flex items-center justify-center'>
+      <section >
+      <section className=' bg-red-500 flex items-center justify-center'>
 
       <section className='grid md:grid-cols-2 grid-cols-1 gap-x-[100px] items-center justify-center'>
         <form onSubmit={onSubmit} className= 'flex flex-col gap-3'>
@@ -64,6 +68,7 @@ export default function Home() {
         <p>Wind Speed: {(status.wind.speed * 2.23694).toFixed(0)} <abbr title="mile per hour">mph</abbr></p>
         </div>
         )}
+      </section>
       </section>
       </section>
     ) ; 
